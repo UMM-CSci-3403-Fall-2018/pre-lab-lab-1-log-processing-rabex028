@@ -1,0 +1,8 @@
+Regex 0
+([A-Z])\w+|([a-z])\w+
+
+Regex 1
+(?<= is )([a-z]\w+)|(?<= am )([A-Z])\w+
+
+Regex 2
+(?<=\. )([a-z])\w+ ([a-z])\w+|([A-Za-z])+\.
